@@ -65,7 +65,7 @@ func (b *BuilderFile) isFileCanFit(bytes []byte) bool {
 
 // clear will initialize xml content.
 func (b *BuilderFile) clear() {
-	b.content = make([]byte, 0, MaxSitemapFilesize)
+	b.content = make([]byte, 0, InitialSitemapSize)
 }
 
 // Content will return pooled bytes on content attribute.
