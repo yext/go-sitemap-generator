@@ -11,6 +11,8 @@ const (
 	MaxSitemapNews = 1000
 	// MaxSitemapFilesize defines file size for sitemap.
 	MaxSitemapFilesize = 50000000 // bytes
+    // InitialSitemapSize defines the preallocated memory size for sitemap
+    InitialSitemapSize = 5000000 //bytes
 )
 
 const (
